@@ -3,10 +3,12 @@ Title: 02 Markdown学习
 C_time: 2023-06-29-22:35
 Done_time: NA
 Status: Done
-draft: true
+draft: false
 Tag:
 - #Markdown
 ---
+
+## [Home](index)
 
 原文：[Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
 

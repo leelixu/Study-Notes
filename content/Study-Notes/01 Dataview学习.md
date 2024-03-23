@@ -3,11 +3,13 @@ Title: 01 Dataview学习
 C_time: 2023-06-28-23:49
 Done_time: 2023-06-29-22:30
 Status: Done
-draft: true
+draft: false
 Tag:
 - #Obsidian
 - #Dataview
 ---
+
+## [Home](index)
 
 原文：[Obsidian DataView 入门保姆级引导手册](https://zhuanlan.zhihu.com/p/614881764)
 

@@ -1,6 +1,6 @@
 ---
-title: Welcome to leelili 's study-notes
-draft: true
+title: welcome to Leelili 's Study-Notes
+draft: false
 ---
 
 ## 目录
@@ -9,10 +9,10 @@ draft: true
 
 ### [[02 Markdown学习]]
 
-### HTML学习 [[03 HTML学习]]
+### [[03 HTML学习]]
 
 
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+这是一个空白的Quartz页面。
+请参阅[文档](https://quartz.jzhao.xyz)了解如何开始。
