@@ -1,6 +1,7 @@
 ---
 title: {{title}}
-draft: false
+C_time: {{date}}-{{time}}
+draft: true
 tags:
   - example-tag
 ---
