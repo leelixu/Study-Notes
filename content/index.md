@@ -2,7 +2,7 @@
 title: welcome to Leelili 's Study-Notes
 draft: false
 ---
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGIxYzVlNDNjNDgxMThlYWMyNWI5Yzk4MjlkNWZlOThfaGhYRVNyRUxSS2hoQWpsM3VHMmE0U2NCYnI1bHF0VVRfVG9rZW46RURLM2JzNnBmbzYyQ1p4UjZyTmN6Vnc1bjZmXzE3MTEyNzQwNDU6MTcxMTI3NzY0NV9WNA)
+
 
 # welcome
 

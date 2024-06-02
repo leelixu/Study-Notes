@@ -29,12 +29,12 @@ This document is an introduction to USB Type-C™ and is not intended to be a re
 
 > 本文档是对 USB Type-C™ 的介绍，并非旨在替代官方规范。有关本文档中未描述的技术详细信息，请参阅以下规格。
 
-• USB Type-C™ Specification
-• USB Power Delivery 2.0 Specification
-• USB 2.0 Specification
-• USB 3.0 Specification
-• USB 3.1 Specification
-• USB Battery Charging BC1.2
+- USB Type-C™ Specification
+- USB Power Delivery 2.0 Specification
+- USB 2.0 Specification
+- USB 3.0 Specification
+- USB 3.1 Specification
+- USB Battery Charging BC1.2
 
 
 # 1 一般信息
@@ -47,7 +47,7 @@ The USB Type-C cable is a universal cable that addresses the needs for a wide ra
 
 > USB Type-C 电缆是一种通用电缆，可满足各种计算、显示和充电应用的需求。USB Type-C 电缆的长期目标是取代之前所有迭代的 USB 电缆，同时大大扩展整体功能。最近推出的 USB 供电和交替模式功能进一步扩展了 USB 标准在更广泛的应用中采用的原始潜力。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=MjY3NWZkY2Y1YmM2MGQ3NTE5YTM2YThhNzg1NzJmNThfcEh4eUFhenVxcmUzbGlpSUZtaHFPNm9OQmVYdnZDNHJfVG9rZW46SUZzN2JaOHBRb3dMYTF4WERxZGNwc1NkbnplXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151128.png]]
 
 ## 1.1 端口行为
 
@@ -150,9 +150,9 @@ Separate specifications define the rules for each Alternate Mode. Currently, spe
 
 ## 1.3 Connector/Receptacle Pins
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=MTJmMzg5YmVjZDYxY2RkNjAzMzlmODBmNmU4ZGJkOTFfTWE3VHdMSkZ1TkE0bVJlMGxLTFg4Zm5odUF2bndQVzRfVG9rZW46VHJQRmJUbnZhbzVQY3l4cTRoQWNGeUJMbjZiXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151353.png]]
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=YWYxZGRjMDI3MTAyM2JmODQyY2E2ZmU0MjY5NWM1MWZfRnNRMFRQSkNvMGFVOFdKQWF0alNia1ZxZ2p4cE4wU09fVG9rZW46VXFkQWJZZjdTb3NoNDd4UVBjOGNHTmo5bmtmXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151413.png]]
 
 The USB Type-C connector has 24 pins. Because of its reversibility, the pins are arranged in a mirrored configuration.
 There are a total of 6 differential pairs in a full-featured cable assembly. There are also 4 pins that serve functions new to USB: CC1, CC2, SBU1, SBU2.
@@ -198,7 +198,7 @@ The SBU wires are lower speed signal wires that is allocated for Alternate Mode 
 
 > SBU 线是仅分配给交替模式使用的低速信号线。在将这些引脚用于任何目的之前，备用模式协商需要 USB Power Delivery。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NjljZWMxYTU2ZDY4YzczZWQ3OTk4YjUwMjFiOGQ1ZGJfdmh6VFBvMGhVSlVDMzJpa29LazZWN3k0czlGUUhScjhfVG9rZW46SG9WSWJZS1lmbzRXSEh4d2xXbmNLY2VtbkxnXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151425.png]]
 
 ## 1.4 电源选项
 
@@ -206,7 +206,7 @@ The USB Type-C Interconnect introduces two new native charging options, but is a
 
 > USB Type-C 互连引入了两个新的本机充电选项，但也与传统充电选项兼容。USB Power Delivery 也受支持，但可选。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NzA4MDM2OGMyZWUwMjdkMGE4NTQ1MzY4ODhjNjNkZTRfN3puRjNGc2pPWU1NVnNoTTZPM1Y4emhwM3h0TXhFaDNfVG9rZW46UjFDZGJzSzBHbzhHNnl4bk9SQ2M2dU9HblFkXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151439.png]]
 
 # 2 USB TYPE-C CABLES
 
@@ -244,7 +244,7 @@ Cable lengths are not explicitly specified in the USB Type-C™ specifications. 
 
 > USB Type-C™ 规范中未明确指定电缆长度。但是，电气要求会产生一些实际限制。USB3.1 Type-C 转 Type-C 电缆组件在 5GHz 时分配了 -6 dB 损耗，有效地将电缆长度限制在 1 米以内。USB3.0 Type-C 转 Type-C 电缆组件在 5GHz 时分配了 -7 dB 损耗，有效地将电缆长度限制在 2 米以内。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NWY5YTU4OTJhMGY5MWJlZjgzODNhNTUzNDU0YTdiYmFfN3JrV3FBMDh6M2lJYU9IMEZBcjY5dDNFaWpwSDROS3FfVG9rZW46U0JnT2JBTXhXbzNHWGZ4RlJXbWNpcFNybnFmXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151450.png]]
 
 ## 2.2 USB2.0
 
@@ -252,9 +252,9 @@ A standard USB2.0 Type-C cable assembly is shown in Figure 4 and Table 4.
 
 > 标准USB2.0 Type-C电缆组件如图4和表4所示。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=MWRkZTIwNjdkZDc4NTA0NGZiNjM2MmEzYWJiYjExNzlfNDREMDBtajB2ajRLYVpDYnBxcm5ZdHZQY2VUUGRleVNfVG9rZW46REFFYmI3SFRBb0NQdjJ4azZyQ2NQenpZbktmXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151459.png]]
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=OWY3MjhhMWE3OTc4Njc5MTk3N2JjZDc5Mzk4MTM1MzBfZzBqRjJzME1xWTE2d2Voa3dkc29sQ0IybHByS1p1UG1fVG9rZW46WUdpemIzeldrb0l6VEp4WUxsM2NibEVNbm5kXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151508.png]]
 
 ## 2.3 全功能
 
@@ -262,9 +262,9 @@ A standard full-featured USB Type-C cable assembly is shown in Figure 5 and Tabl
 
 > 标准的全功能USB Type-C电缆组件如图5和表5所示。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=MGY1YmRjNTI0MDNhM2U4ZmQ0NGQzNGFmOGIyMjViNmRfVGxKMnF6dmRCaEtDWXBnNUhCcUtXZ2lmUWVvZmU5aGZfVG9rZW46QVpyVmJ4Y2Rab0gyRFd4RjBtNWMxVzFobndiXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151516.png]]
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NWNjYjU2NWQyNmY1M2ExODJmZTk4M2YxNzJlYzhjNWVfWG5lVlNib1Q4cm1LQjBtR2tLZlZmOGh2U3FvazQycHVfVG9rZW46RVczNGJDOXJVbzRNdTh4N21Ic2NhWVlmbkVmXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151521.png]]
 
 ## 2.4 被动线缆
 
@@ -322,7 +322,6 @@ Only two USB Type-C to Legacy adapters are defined:
 • USB Type-C to Type-A receptacle adapter
 • USB Type-C to Micro-B (USB2.0)
 
-  
 
 # 3 CC PINS
 
@@ -357,7 +356,7 @@ The Rp pull-up resistors on a downstream facing port must be connected to both C
 
 > 下游端口上的 Rp 上拉电阻必须连接到 CC1 和 CC2 引脚，并且可以上拉至 3.3V 或 5.0V（也可以使用电流源）。所选电阻的值向器件公布端口的电流供应能力。下表显示了 Rp 上拉电阻器和电流源的可接受值（根据 USB Type-C™ 规范）。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NjQxNDkxZDA4Zjc2MjYwMDg4YTFhYjU3ZDNkM2VkNDZfU1d1V2xsb0hyaThYeTdqTWtqY3dHSW10clhPVVV4ZlNfVG9rZW46UmxoemI5V2FEb0FNWFF4aWVtWWNMdVNUbmNoXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151541.png]]
 
 ## 3.2 UFP Rd Pull-Down Resistors.
 
@@ -365,7 +364,7 @@ An upstream facing port must connect a valid Rp pull-down resistor to GND (or op
 
 > 面向上游的端口必须将有效的 Rp 下拉电阻连接到 GND（或可选的电压钳位）和 CC1 和 CC2 引脚。如果要使用1.5A@5V或3.0A@5V的USB Type-C充电，5.1kΩ±10%是唯一可接受的电阻。详细信息如下表所示。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDBkNDU1NzQ2MTFmOTE1ZGIwM2RhMTE1OGMwZTc4NzVfeXVNM1l2eHdHSXlFTGQ2RkkyMThBZlF1OXBIdzlSa3dfVG9rZW46TXBDRWJyUVJhb3BRTmx4MVUzbmNBZFJtblZkXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151547.png]]
 
 ## 3.3 Active Cable Ra Pull-Down Resistors
 
@@ -383,7 +382,7 @@ A cable attach is detected when either of the CC1 or CC2 pins detects a valid Rp
 
 > 5V 至 VBUS 仅在检测到有效的电缆附件时才适用。这样可以防止两个面向下游的端口相互反向驱动电流。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=YjQ2YzE2NjI0MjZjNGEyNDA5NjU4NjY5ZTlkNTUzZWZfQThQcmF5ekp6akFjakcwU01WWFBCMmlraGxiNVYxeTBfVG9rZW46VmRhbGJjUUhNb054VlB4cG42bWNXaEpNbmtjXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151556.png]]
 
 ## 3.5 Cable Orientation Detection（电缆方向检测）
 
@@ -397,7 +396,7 @@ The cable orientation is detected in the following way:
 > - 如果 CC1 引脚检测到有效的 Rp/Rd 连接，则电缆在该插座处处于“未翻转”方向。
 > - 如果 CC2 引脚检测到有效的 Rp/Rd 连接，则电缆在该插座处处于“翻转”方向。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NzU5MTk1ODAzODlhOTc2MmI4ZDBiYmIxYTRlNmViOTJfalc0OXZPUzkxbkJ5cG56Y3BXUWtLWjE0SDdZaWpwTUJfVG9rZW46SVpKRWJHZ1pNb3l2SFJ4NVc4c2NRc0RQbkdrXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151611.png]]
 
 ## 3.6 USB Type-C Current Advertisement（USB Type-C 电流广告）
 
@@ -405,7 +404,7 @@ Both the upstream facing port and the downstream facing port must monitor the vo
 
 > 上行端口和下行端口都必须监控 CC1 和 CC2 引脚上的电压，以确定是否已建立有效的 Rp/Rd 或 Rp/Ra 连接。USB Type-C™ 规范定义了以下电压范围：
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=YjlkNjAxNTlhYzZjYTcyNTZhMjJjMWI5MWZhYzBhZjFfcFg3b1Y2OEhYRGhlazhyYUFrZU43OXhBdmdYNXRUZXZfVG9rZW46UVV2TGJnc3BIb3Q1ZXN4THI4b2NZWE8ybmdmXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151621.png]]
 
 Once a valid connection is established, the upstream facing port (device) may is responsible for drawing the appropriate amount of maximum current.
 
@@ -431,7 +430,7 @@ Because of the reversible nature of the USB Type-C cable, both CC1 and CC2 pins 
 
 > 由于 USB Type-C 电缆的可逆性，CC1 和 CC2 引脚在插入电缆时必须能够承担 CC 和 VCONN 的角色。典型的解决方案如下图 xx 所示。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=N2FiZDJmZDI2NTE1NjlhODQzNzc3YjM3YTBmMzI5ZGFfYVBIRkRKV3VVa2FIdlR4SFQzNkhXcEF0N1Yxb3J3dzlfVG9rZW46THlUOGJRM0Vwb29zOFF4OVgzZmN4T01RbjgxXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151632.png]]
 
 Note: While all USB Type-C ports are required to source VCONN to active cables, active cables are permitted to source power from either VCONN or VBUS.
 
@@ -465,7 +464,7 @@ USB Power Delivery 2.0 refers to a single wire protocol (on CC wire) created by 
 >     - SOP'：DFP 到有源电缆插头消息传递
 >     - SOP''：DFP 到有源电缆插头消息传递
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=Zjc2N2I2NzgyYjU3MzhiOGFkNWNkYTc4ZDQ1NjViYjVfNUFUSlA5Znc0SXNLY0dUdmFhUDhLWFV0UjVuWFlBZWhfVG9rZW46UXRBSWJXM2FTb0NzTWh4UnJVbmNvdnNtbnplXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151642.png]]
 
 Note: SOP’ is assigned to one plug of the cable while SOP’’ is assigned to the other. The cable plugs cannot tell which side that they are connected to, just that one end may respond to SOP’ addressed messages and the other may respond SOP’’ addressed messages.
 
@@ -521,7 +520,7 @@ All Alternate Modes must minimally maintain a USB2.0 and USB Power Delivery conn
 
 > 所有备用模式必须至少保持USB2.0和USB供电连接。以下引脚/电线可能会重新配置以与备用模式一起使用。
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=NzM5MWViYmRmOTUyZDI0MWI5M2RlZmMzNDE1MTUwNjhfVlJHSzQwZklrYkpRUU55R0hrUHRIMERJQWR3UGJEM0NfVG9rZW46THk4QmJyMTB2bzlTRTJ4N2ZPWGNoTGdpbmcxXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151653.png]]
 
 ## 6.2 Example: DisplayPort
 
@@ -532,4 +531,4 @@ DisplayPort was one of the first 3rd part protocols to be specified as a USB Typ
 • (2) Display Port lanes + (1) USB3.1 lane
 • (4) Display Port lanes
 
-![](https://exdqzesaw6.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGZmNTE1ZTUwNDJiYmI1NjA0MjNmYmMzM2IxY2JlNDdfV1lVZ1FPYk5lS2UyeUNodm0xSTRKbmczaEJObXJTTjJfVG9rZW46THNCQWJXd3pqb2dsdER4TkNqUGNFTlFLbnljXzE3MTEyNjk1Mzc6MTcxMTI3MzEzN19WNA)
+![[Pasted image 20240602151659.png]]
