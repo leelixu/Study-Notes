@@ -55,17 +55,17 @@ Prior to the introduction of USB Type-C™ and USB Power Delivery, data and powe
 
 > 在引入 USB Type-C™ 和 USB Power Delivery 之前，数据和电源角色通常是固定的。插座/插头的形状决定了其数据角色和电源角色。USB Type-C 连接更加灵活;端口可以是仅主机模式、仅设备模式或双重角色，并且可以使用 USB 供电协议独立动态交换数据和电源角色。因此，有一些新术语用于描述 USB Type-C 系统。
 
-• Downstream Facing Port (DFP) - A host or downstream hub port. Typical of a legacy standard Type-A port.
-• Upstream Facing Port (UFP) - A device or upstream hub port. Typical of a legacy standard Type-B port.
-• Dual-Role Port (DRP) - A port that transitions between DFP and UFP port states until an attach event occurs.
+- Downstream Facing Port (DFP) - A host or downstream hub port. Typical of a legacy standard Type-A port.
+- Upstream Facing Port (UFP) - A device or upstream hub port. Typical of a legacy standard Type-B port.
+- Dual-Role Port (DRP) - A port that transitions between DFP and UFP port states until an attach event occurs.
 
 > • 面向下游的端口（DFP） - 主机或下游集线器端口。传统标准 Type-A 端口的典型特征。
 > • 上行端口（UFP） - 设备或上游集线器端口。传统标准 Type-B 端口的典型特征。
 > • 双角色端口（DRP） - 在DFP和UFP端口状态之间转换的端口，直到发生连接事件。
 
 DRPs may be dynamically swapped using USB Power Delivery Protocol Negotiation after an initial attach event.
-• Power Source or Provider - A source of 5V-20V up to 5A. Typical of a legacy standard Type-A port.
-• Power Sink or Consumer - A sink of 5V-20V up to 5A. Typical of a legacy standard Type-B port.
+- Power Source or Provider - A source of 5V-20V up to 5A. Typical of a legacy standard Type-A port.
+- Power Sink or Consumer - A sink of 5V-20V up to 5A. Typical of a legacy standard Type-B port.
 
 > 在初始连接事件后，可以使用 USB 供电协议协商动态交换 DRP。
 > • 电源或提供程序 - 5V-20V 至 5A 的电源。传统标准 Type-A 端口的典型特征。
@@ -76,14 +76,14 @@ DRPs may be dynamically swapped using USB Power Delivery Protocol Negotiation af
 ### 1.2.1 MINIMUM FEATURE SET（最小功能集）
 
 A basic USB Type-C application can still be cost-effective.USB Type-C ports are not required to implement all of the advanced features that are defined in the specification. The minimum required feature set includes the following:
-• USB2.0 Connection
-• Cable attach and detach detection
-• VCONN active cable supply
+- USB2.0 Connection
+- Cable attach and detach detection
+- VCONN active cable supply
 
 > 基本的 USB Type-C 应用程序仍然具有成本效益。USB Type-C 端口不需要实现规范中定义的所有高级功能。所需的最小功能集包括：
-> • USB2.0 接口
-> • 电缆连接和分离检测
-> • VCONN 有源电缆供应
+> 	1、USB2.0 接口
+> 	2、电缆连接和分离检测
+> 	3、VCONN 有源电缆供应
 
 ### 1.2.2 BATTERY CHARGING（电池充电）
 
@@ -109,18 +109,18 @@ For additional details see please refer to the individual specifications as publ
 
 USB Power Delivery protocol is a singled-ended, 1-wire protocol created by the USB-IF which specifies the methods for serial communication over the USB Type-C CC wire. USB Power Delivery is required for implementation of the following advanced features:
 
-• Communicating with an electronically marked/active cable
-• Elevating the VBUS voltage above 5.5V
-• Increasing current sourcing/sinking above 3A
-• Changing default power roles (Provider or Consumer)
-• Using Alternate Modes (see section 1.2.5)
+- Communicating with an electronically marked/active cable
+- Elevating the VBUS voltage above 5.5V
+- Increasing current sourcing/sinking above 3A
+- Changing default power roles (Provider or Consumer)
+- Using Alternate Modes (see section 1.2.5)
 
 > USB Power Delivery 协议是由 USB-IF 创建的单端 1 线协议，它指定了通过 USB Type-C CC 线进行串行通信的方法。实现以下高级功能需要 USB Power Delivery：
-> • 使用带有电子标记/有源电缆的电缆进行通信
-> • 将VBUS电压提升至5.5V以上
-> • 将电流拉出/灌电流提高到 3A 以上
-> • 更改默认电源角色（提供者或使用者）
-> • 使用备用模式（参见第 1.2.5 节）
+> 	• 使用带有电子标记/有源电缆的电缆进行通信
+> 	• 将VBUS电压提升至5.5V以上
+> 	• 将电流拉出/灌电流提高到 3A 以上
+> 	• 更改默认电源角色（提供者或使用者）
+> 	• 使用备用模式（参见第 1.2.5 节）
 
 The Power Delivery 2.0 is a port-to-port and port-to-cable communication protocol. The communication can not propagate throughout an entire device tree like standard USB protocols.
 For additional details see Section 5.0, USB Power Delivery 2.0.
@@ -131,18 +131,18 @@ For additional details see Section 5.0, USB Power Delivery 2.0.
 ### 1.2.5 ALTERNATE MODES (THIRD PARTY PROTOCOLS)
 
 The USB Type-C cable allows for any third party protocol to be used as long as the cable can support it. Alternate Modes are negotiated and entered on a port-to-port basis using the USB Power Delivery protocol. The following signals may be reassigned when entering an Alternate Mode.
-• TX1+/-
-• RX1+/-
-• TX2+/-
-• RX2+/-
-• SBU1/SBU2
+- TX1+/-
+- RX1+/-
+- TX2+/-
+- RX2+/-
+- SBU1/SBU2
 
 > USB Type-C 电缆允许使用任何第三方协议，只要电缆可以支持它。备用模式是使用 USB 供电协议在端口到端口的基础上协商和输入的。进入备用模式时，可能会重新分配以下信号。
-> • TX1+/-
-> • RX1+/-
-> • TX2+/-
-> • RX2+/-
-> • SBU1/SBU2
+> 	• TX1+/-
+> 	• RX1+/-
+> 	• TX2+/-
+> 	• RX2+/-
+> 	• SBU1/SBU2
 
 Separate specifications define the rules for each Alternate Mode. Currently, specifications exist for DisplayPort (authored by VESA) and ThunderBolt (authored by Intel). For additional details see Section 6.0, Alternate Modes.
 
@@ -227,16 +227,16 @@ The USB Type-C cable must minimally support 10,000 mating cycles.
 ### 2.1.3 线缆规格
 
 Signal wire gauge is not explicitly specified in the USB Type-C™ specifications, but wires must be appropriately sized for the length and capabilities of the cable such that:
-• Signal integrity on the USB2.0 and USB3.0 wires is preserved
-• ~50Ω impedance on the CC and SBU1/SBU2 wires
-• Maximum IR drop of 250mV on GND return
-• Maximum IR drop of 500mV on VBUS
+- Signal integrity on the USB2.0 and USB3.0 wires is preserved
+- ~50Ω impedance on the CC and SBU1/SBU2 wires
+- Maximum IR drop of 250mV on GND return
+- Maximum IR drop of 500mV on VBUS
 
 > USB Type-C™ 规范中未明确规定信号线规，但电线的尺寸必须与电缆的长度和功能相适应，以便：
-> • 保留 USB2.0 和 USB3.0 线上的信号完整性
-> • CC 和 SBU1/SBU2 线上的阻抗为 ~50Ω
-> • GND 返回时最大 IR 压降为 250mV
-> • VBUS 上的最大 IR 压降为 500mV
+> 	• 保留 USB2.0 和 USB3.0 线上的信号完整性
+> 	• CC 和 SBU1/SBU2 线上的阻抗为 ~50Ω
+> 	• GND 返回时最大 IR 压降为 250mV
+> 	• VBUS 上的最大 IR 压降为 500mV
 
 ### 2.1.4 电缆长度
 
@@ -310,17 +310,17 @@ The USB Type-C™ specification also defines the allowable USB Type-C to Legacy 
 
 > USB Type-C 规范还定义了允许的 USB Type-C™ 到传统 USB 电缆组件。支持以下完整电缆组件：
 
-• USB Type-C to Type-A (USB2.0)
-• USB Type-C to Type-A (USB3.0/3.1)
-• USB Type-C to Type-B (USB2.0)
-• USB Type-C to Type-B (USB3.0/3.1)
-• USB Type-C to Mini-B (USB2.0)
-• USB Type-C to Micro-B (USB2.0)
-• USB Type-C to Micro-B (USB3.0/3.1)
+- USB Type-C to Type-A (USB2.0)
+- USB Type-C to Type-A (USB3.0/3.1)
+- USB Type-C to Type-B (USB2.0)
+- USB Type-C to Type-B (USB3.0/3.1)
+- USB Type-C to Mini-B (USB2.0)
+- USB Type-C to Micro-B (USB2.0)
+- USB Type-C to Micro-B (USB3.0/3.1)
 
 Only two USB Type-C to Legacy adapters are defined:
-• USB Type-C to Type-A receptacle adapter
-• USB Type-C to Micro-B (USB2.0)
+- USB Type-C to Type-A receptacle adapter
+- USB Type-C to Micro-B (USB2.0)
 
 
 # 3 CC PINS
