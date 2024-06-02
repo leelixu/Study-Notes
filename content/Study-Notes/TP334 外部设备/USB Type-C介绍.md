@@ -67,9 +67,9 @@ DRPs may be dynamically swapped using USB Power Delivery Protocol Negotiation af
 - Power Source or Provider - A source of 5V-20V up to 5A. Typical of a legacy standard Type-A port.
 - Power Sink or Consumer - A sink of 5V-20V up to 5A. Typical of a legacy standard Type-B port.
 
-> 在初始连接事件后，可以使用 USB 供电协议协商动态交换 DRP。
-> • 电源或提供程序 - 5V-20V 至 5A 的电源。传统标准 Type-A 端口的典型特征。
-> • 电源灌电流或消费电子 - 5V-20V 的灌电流高达 5A。传统标准 Type-B 端口的典型特征。
+> DRP 可以在初始附加事件后使用 USB 电力传输协议协商动态交换。
+> - 电源或提供者 - 5V-20V 高达 5A 的电源源。典型的传统标准 Type-A 端口。
+> - 功率接收器或消耗器 - 5V-20V 高达 5A 的接收器。典型的传统标准 Type-B 端口。
 
 ## 1.2 Features（功能）
 
@@ -81,9 +81,9 @@ A basic USB Type-C application can still be cost-effective.USB Type-C ports are 
 - VCONN active cable supply
 
 > 基本的 USB Type-C 应用程序仍然具有成本效益。USB Type-C 端口不需要实现规范中定义的所有高级功能。所需的最小功能集包括：
-> 	1、USB2.0 接口
-> 	2、电缆连接和分离检测
-> 	3、VCONN 有源电缆供应
+> 	- USB2.0 接口
+> 	- 电缆连接和分离检测
+> 	- VCONN 有源电缆供应
 
 ### 1.2.2 BATTERY CHARGING（电池充电）
 
@@ -116,11 +116,11 @@ USB Power Delivery protocol is a singled-ended, 1-wire protocol created by the U
 - Using Alternate Modes (see section 1.2.5)
 
 > USB Power Delivery 协议是由 USB-IF 创建的单端 1 线协议，它指定了通过 USB Type-C CC 线进行串行通信的方法。实现以下高级功能需要 USB Power Delivery：
-> 	• 使用带有电子标记/有源电缆的电缆进行通信
-> 	• 将VBUS电压提升至5.5V以上
-> 	• 将电流拉出/灌电流提高到 3A 以上
-> 	• 更改默认电源角色（提供者或使用者）
-> 	• 使用备用模式（参见第 1.2.5 节）
+> 	- 使用带有电子标记/有源电缆的电缆进行通信
+> 	- 将VBUS电压提升至5.5V以上
+> 	- 将电流拉出/灌电流提高到 3A 以上
+> 	- 更改默认电源角色（提供者或使用者）
+> 	- 使用备用模式（参见第 1.2.5 节）
 
 The Power Delivery 2.0 is a port-to-port and port-to-cable communication protocol. The communication can not propagate throughout an entire device tree like standard USB protocols.
 For additional details see Section 5.0, USB Power Delivery 2.0.
@@ -138,11 +138,11 @@ The USB Type-C cable allows for any third party protocol to be used as long as t
 - SBU1/SBU2
 
 > USB Type-C 电缆允许使用任何第三方协议，只要电缆可以支持它。备用模式是使用 USB 供电协议在端口到端口的基础上协商和输入的。进入备用模式时，可能会重新分配以下信号。
-> 	• TX1+/-
-> 	• RX1+/-
-> 	• TX2+/-
-> 	• RX2+/-
-> 	• SBU1/SBU2
+> 	- TX1+/-
+> 	- RX1+/-
+> 	- TX2+/-
+> 	- RX2+/-
+> 	- SBU1/SBU2
 
 Separate specifications define the rules for each Alternate Mode. Currently, specifications exist for DisplayPort (authored by VESA) and ThunderBolt (authored by Intel). For additional details see Section 6.0, Alternate Modes.
 
@@ -233,10 +233,10 @@ Signal wire gauge is not explicitly specified in the USB Type-C™ specification
 - Maximum IR drop of 500mV on VBUS
 
 > USB Type-C™ 规范中未明确规定信号线规，但电线的尺寸必须与电缆的长度和功能相适应，以便：
-> 	• 保留 USB2.0 和 USB3.0 线上的信号完整性
-> 	• CC 和 SBU1/SBU2 线上的阻抗为 ~50Ω
-> 	• GND 返回时最大 IR 压降为 250mV
-> 	• VBUS 上的最大 IR 压降为 500mV
+> 	- 保留 USB2.0 和 USB3.0 线上的信号完整性
+> 	- CC 和 SBU1/SBU2 线上的阻抗为 ~50Ω
+> 	- GND 返回时最大 IR 压降为 250mV
+> 	- VBUS 上的最大 IR 压降为 500mV
 
 ### 2.1.4 电缆长度
 
@@ -319,6 +319,9 @@ The USB Type-C™ specification also defines the allowable USB Type-C to Legacy 
 - USB Type-C to Micro-B (USB3.0/3.1)
 
 Only two USB Type-C to Legacy adapters are defined:
+
+> 仅定义了两个 USB Type-C 至传统适配器：
+
 - USB Type-C to Type-A receptacle adapter
 - USB Type-C to Micro-B (USB2.0)
 
